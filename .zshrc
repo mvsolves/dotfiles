@@ -53,9 +53,20 @@ bindkey "${Z_LEADER}^?" backward-delete-word
 # Open zshrc, but FAST
 bindkey -s "${Z_LEADER}." 'vi ~/.zshrc\n'
 
-
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Configure bare repo using 'config' as an alias replacement for 'git'
 alias config='/usr/bin/git --git-dir=/Users/marcosvelazquez/.cfg/ --work-tree=/Users/marcosvelazquez'
+
+# Run the command below when cloning MV's dotfiles
+# git clone --bare https://github.com/mvsolves/dotfiles.git $HOME/.cfg
+
+# Ensure that you have updated git command
+# (which includes the repo and your working tree locations):
+# alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# With that done, checkout files:
+# config checkout
