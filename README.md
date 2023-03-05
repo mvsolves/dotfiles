@@ -17,8 +17,11 @@ config checkout
 ## Reference material
 [Dotfile instructions](https://www.paultman.com/git-for-dotfile-configs/)
 
+[Dotfiles Atlassian instructions](https://www.atlassian.com/git/tutorials/dotfiles)
+
 [Paulirish dotfiles reference](https://github.com/paulirish/dotfiles)
 
 [Mathias Bynens dotfiles reference](https://github.com/mathiasbynens/dotfiles)
 
 [Kyle Chui dotfiles reference](https://github.com/kylechui/dotfiles)
+
