@@ -53,6 +53,19 @@ bindkey "${Z_LEADER}^?" backward-delete-word
 # Open zshrc, but FAST
 bindkey -s "${Z_LEADER}." 'vi ~/.zshrc\n'
 
+# Widget to look thru history commands
+bindkey "${Z_LEADER}f" history-incremental-search-backward
+
+bindkey -M isearch '[' history-incremental-search-backward
+bindkey -M isearch ']' history-incremental-search-forward
+# bindkey -M "isearch" "q" isearch-terminate
+
+# Restart shell
+bindkey -s "${Z_LEADER}r" "exec zsh\n"
+
+
+
+
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
