@@ -1,0 +1,145 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "romkatv/powerlevel10k"
+tap "sidneys/homebrew"
+# Java build tool
+brew "ant"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Library for command-line editing
+brew "readline"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Extract files from Microsoft cabinet files
+brew "cabextract"
+# Core application library for C
+brew "glib"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Object-file caching compiler wrapper
+brew "ccache"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Next-gen compiler infrastructure
+brew "llvm"
+# C/C++/ObjC language server
+brew "ccls"
+# CD/DVD/Blu-ray premastering and recording software
+brew "cdrtools"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Multi-format archive and compression library
+brew "libarchive"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# Secure Reliable Transport
+brew "srt"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg@4"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# Core component of the AcoustID project (Audio fingerprinting)
+brew "chromaprint"
+# Cross-platform make
+brew "cmake"
+# Microsoft's C++ Guidelines Support Library
+brew "cpp-gsl"
+# Django/Jinja template indenter
+brew "djhtml"
+# High performance message passing library
+brew "open-mpi"
+# C routines to compute the Discrete Fourier Transform
+brew "fftw"
+# Distributed revision control system
+brew "git"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Numerical library for C and C++
+brew "gsl"
+# Manage your Java environment
+brew "jenv"
+# User-friendly front-end to ssh-agent(1)
+brew "keychain"
+# Library implementing the EBU R128 loudness standard
+brew "libebur128"
+# International domain name library
+brew "libidn"
+# Library for handling page faults in user mode
+brew "libsigsegv"
+# Language Server for the Lua language
+brew "lua-language-server"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Port scanning utility for large networks
+brew "nmap"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Cross-platform library for real-time MIDI I/O
+brew "portmidi"
+# Object-relational database system
+brew "postgresql@14", restart_service: true
+# Tool for creating isolated virtual python environments
+brew "virtualenv", link: false
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Python version management
+brew "pyenv"
+# Cross-platform application and UI framework
+brew "qt"
+# Cross-platform application and UI framework
+brew "qt@5"
+# Platform-independent Qt API for storing passwords securely
+brew "qtkeychain"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Build tool for Scala projects
+brew "sbt"
+# Audio processing library
+brew "sound-touch"
+# Opinionated Lua code formatter
+brew "stylua"
+# Audio metadata library
+brew "taglib"
+# Terminal multiplexer
+brew "tmux"
+# Internet file retriever
+brew "wget"
+# Library to create, extract, and modify Windows Imaging files
+brew "wimlib"
+# General-purpose lossless data-compression library
+brew "zlib"
+# A Zsh Theme
+brew "romkatv/powerlevel10k/powerlevel10k"
+# Virtual Audio Driver
+cask "blackhole-2ch"
+# App to create and edit MKV videos
+cask "mkvtools"
