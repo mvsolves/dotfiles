@@ -1,0 +1,21 @@
+# MacOS specific plugin
+
+# Move focus between panes with shift-cmd-arrow keys
+shift + cmd - left : yabai -m window --focus west
+shift + cmd - right : yabai -m window --focus east
+shift + cmd - up : yabai -m window --focus north
+shift + cmd - down : yabai -m window --focus south
+
+# Make the focused Yabai window take up the entire screen
+shift + cmd - f : yabai -m window --toggle zoom-fullscreen
+
+# Swaps the current window with next/prev window
+shift + cmd - s : yabai -m window --swap next || yabai -m window --swap prev
+
+# Toggle vertical/horizontal split
+shift + cmd - t : yabai -m window --toggle split
+
+# Open apps
+ctrl - s : open -n -a Safari
+ctrl - space : open -n -a iTerm
+ctrl - e : open -n -a Calendar
