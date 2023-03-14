@@ -1,0 +1,9 @@
+tap "koekeishiya/formulae"
+# User-friendly front-end to ssh-agent(1)
+brew "keychain"
+# Virtual Audio Driver
+cask "blackhole-2ch"
+# Simple hotkey-daemon for macOS.
+brew "koekeishiya/formulae/skhd"
+# A tiling window manager for macOS based on binary space partitioning.
+brew "koekeishiya/formulae/yabai"

@@ -139,7 +139,5 @@ brew "wimlib"
 brew "zlib"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
-# Virtual Audio Driver
-cask "blackhole-2ch"
 # App to create and edit MKV videos
 cask "mkvtools"
