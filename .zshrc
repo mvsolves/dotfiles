@@ -63,10 +63,14 @@ bindkey -M isearch ']' history-incremental-search-forward
 # Restart shell
 bindkey -s "${Z_LEADER}r" "exec zsh\n"
 
+# In Unix-like system, the device file /dev/null represents virtual file that
+# discards all data written to it and returns an empty read operation.
 
+# The number "2" in command refer stderr.
+# So 2>/dev/null redirects any error messages from command to /dev/null,
+# effectively discarding them.
+source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme 2>/dev/null
 
-
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
