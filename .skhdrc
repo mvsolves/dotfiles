@@ -19,3 +19,4 @@ shift + cmd - t : yabai -m window --toggle split
 ctrl - s : open -n -a Safari
 ctrl - space : open -n -a iTerm
 ctrl - e : open -n -a Calendar
+ctrl - o : open -a Finder
